@@ -196,16 +196,17 @@
   <section class="contacts" id="contacts">
     <h2 class="heading">Contact<strong> Me</strong> </h2>
 
-    <form action="#">
+    <form action="https://formspree.io/f/xzblwbnj"
+    method="post">
       <div class="input-box">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
+        <input type="text" placeholder="Full Name" name="FULL NAME" required>
+        <input type="email" placeholder="Email Address" name="Email" required>
       </div>
       <div class="input-box">
-        <input type="tel" placeholder="+91 Mobie Number">
-        <input type="email" placeholder="Subject">
+        <input type="tel" placeholder="+91 Mobie Number" name="mobile" required>
+        <input type="text" placeholder="Subject" name="Subject" required>
       </div>
-      <textarea name="" id="" cols="30" rows="4" placeholder="Your Message..."></textarea>
+      <textarea name="Message" id="" cols="30" rows="4"  placeholder="Your Message..." required></textarea>
       <input type="submit" value="Send Message" class="btn">
     </form>
 
