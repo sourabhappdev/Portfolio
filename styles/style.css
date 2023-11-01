@@ -1,0 +1,88 @@
+:root {
+    --dark: #1f242d;
+    --second: #323946;
+    --text: #fff;
+    --main: #0ef;
+    --rose: #e11d48;
+    --indigo: #4f46e5;
+    --slate400: #94a3b8;
+    --slate600: #475569;
+    --slate800: #1e293b;
+
+    /* rose rgb(225, 29, 72) */
+    /* indigo rgb(79, 70, 229) */
+
+    /* sizes */
+    --xxs: 0.5rem;
+    --xs: 0.75rem;
+    --sm: 0.875rem;
+    --base: 1rem;
+    --lg: 1.125rem;
+    --xl: 1.25rem;
+    --2xl: 1.5rem;
+    --3xl: 1.875rem;
+    --4xl: 2.25rem;
+    --5xl: 3rem;
+    --6xl: 3.75rem;
+    --7xl: 4.5rem;
+    --8xl: 6rem;
+    --9xl: 8rem;
+    --10xl: 10rem;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--dark);
+    color: var(--text);
+}
+
+
+a {
+    color: var(--light);
+    text-decoration: none;
+
+}
+
+strong {
+    color: var(--main);
+}
+#element{
+    color: var(--main);
+}
+
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 2rem;
+}
+
+
+
+
+
+@keyframes smooth {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

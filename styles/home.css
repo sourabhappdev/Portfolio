@@ -1,0 +1,87 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--dark);
+
+
+}
+
+
+
+
+.home-content h3{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+.home-content h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+
+    
+}
+.home-content p{
+    padding-bottom:1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.home-img img{
+    box-shadow: 0 0 1rem  2px var(--main);
+    border-radius: 50%;
+    object-fit: cover;
+    width: 30vw;
+    height: 30vw;
+    transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
+    animation: floatimage 4s ease-in-out infinite;
+
+}
+
+@keyframes floatimage {
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-2.4rem);
+    }
+
+    0%{
+        transform: translateY(0);
+    }
+    
+}
+
+
+
+
+.social-media{
+    margin: 1rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.social_button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid var(--main);
+    border-radius: 6px;
+    font-size: 2.5rem;
+
+}
+
+.cv{
+    font-size: 1.5rem;
+
+    
+}
+    
+   
